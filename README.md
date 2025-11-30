@@ -43,7 +43,13 @@ The project follows a modular architecture using several design patterns:
    ```bash
    pip install torch numpy unityagents matplotlib
    ```
-3. Download the Unity Environment "Banana" for your OS and place it in a known directory.
+3. Download the Unity Environment "Banana" for your operating system:
+    *   **Linux**: [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    *   **Mac OSX**: [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    *   **Windows (32-bit)**: [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    *   **Windows (64-bit)**: [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+    
+    *Place the file in the project root and unzip it.*
 
 ## Usage
 
