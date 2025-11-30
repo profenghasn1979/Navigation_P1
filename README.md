@@ -2,6 +2,20 @@
 
 This project implements a Deep Q-Network (DQN) agent to solve the Unity ML-Agents "Banana" Navigation environment.
 
+## Environment Details
+
+*   **Goal**: The agent must navigate a large, square world to collect yellow bananas and avoid blue bananas.
+*   **Rewards**:
+    *   +1 for collecting a yellow banana.
+    *   -1 for collecting a blue banana.
+*   **State Space**: The state space has **37 dimensions**, including the agent's velocity and ray-based perception of objects around the agent's forward direction.
+*   **Action Space**: **4 discrete actions** are available:
+    *   `0`: Move forward.
+    *   `1`: Move backward.
+    *   `2`: Turn left.
+    *   `3`: Turn right.
+*   **Solved Condition**: The environment is considered solved when the agent achieves an average score of **+13 over 100 consecutive episodes**.
+
 ## Project Structure
 
 The project follows a modular architecture using several design patterns:
