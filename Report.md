@@ -22,9 +22,9 @@ The agent implements **Double DQN** to reduce overestimation bias. This is contr
 
 ## Plot of Rewards
 
-[Insert Plot Here]
+![Scores Plot](scores_plot.png)
 
-The environment was solved in X episodes.
+The environment was solved in **405 episodes** (Average Score: 13.01).
 
 ## Ideas for Future Work
 
