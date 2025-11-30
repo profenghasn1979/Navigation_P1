@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Unity Environment
+Banana.app/
+Banana.app.zip
+*.log
+
+# Temporary files
+temp_drlnd/
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
