@@ -69,6 +69,20 @@ The project follows a modular architecture using several design patterns:
 
    The script will save the best model weights to `checkpoint.pth` once the environment is solved (avg score >= 13.0).
 
+### Notebook
+
+You can also train the agent using the Jupyter Notebook:
+
+1.  **Activate the Virtual Environment**:
+    ```bash
+    source venv/bin/activate
+    ```
+2.  **Launch Jupyter Notebook**:
+    ```bash
+    jupyter notebook Navigation.ipynb
+    ```
+3.  **Run the cells** to train the agent and visualize the results.
+
 ### Evaluation
 
 To watch a trained agent:
